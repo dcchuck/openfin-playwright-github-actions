@@ -8,6 +8,7 @@
         "autoShow": true
     },
     "runtime": {
-        "version": "stable"
+        "version": "stable",
+        "arguments": ""
     }
 }

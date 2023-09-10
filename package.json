@@ -8,7 +8,8 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "openfin": "openfin -l -c ./app.json"
+    "openfin": "openfin -l -c ./public/app.json",
+    "kill-of": "node kill.mjs"
   },
   "dependencies": {
     "react": "^18.2.0",
