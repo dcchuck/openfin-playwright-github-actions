@@ -34,7 +34,12 @@ export default defineConfig({
   projects: [
     {
       name: 'setup',
-      testMatch: /global.setup\.ts/
+      testMatch: /global.setup\.ts/,
+      teardown: 'openfin teardown',
+    },
+    {
+      name: 'openfin teardown',
+      testMatch: /global.teardown\.ts/,
     },
     {
       name: 'openfin',

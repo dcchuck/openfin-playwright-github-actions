@@ -9,7 +9,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "openfin": "openfin -l -c ./public/app.json",
-    "kill-of": "node kill.mjs"
+    "kill-of": "node kill.mjs",
+    "test": "playwright test"
   },
   "dependencies": {
     "react": "^18.2.0",
